@@ -20,6 +20,31 @@ const fg = {
   fuchsia: '#FF00FF',    // Fuchsia - Alert
   orange: '#FF9F44',     // Orange - Quick
   brown: '#996633'       // Brown - History
+  interface: '#5DADE2',   // Light Blue
+  prompt: '#7CFFB2',      // Mint Green
+  hidden: '#5F6368',      // Dark Gray
+  automate: '#00E676',    // Bright Green
+  mock: '#B388FF',        // Light Purple
+  simulate: '#00B8D4'     // Turquoise
+  trace: '#9AA5B1',        // Execution trace
+  verbose: '#A3CEF1',      // Verbose output
+  system: '#4FC3F7',       // System messages
+  kernel: '#00ACC1',       // Kernel
+  engine: '#00C853',       // Engine
+  module: '#BA68C8',       // Module
+  config: '#FBC02D',       // Configuration
+  security: '#EF5350',     // Security
+  network: '#29B6F6',      // Network
+  storage: '#8D6E63',      // Storage
+  cache: '#66BB6A',        // Cache
+  memory: '#26C6DA',       // Memory
+  parser: '#AB47BC',       // Parser
+  compiler: '#5C6BC0',     // Compiler
+  runtime: '#26A69A',      // Runtime
+  benchmark: '#FFB300',    // Benchmark
+  performance: '#00C853',  // Performance
+  experimental: '#FF4081', // Experimental
+  deprecated: '#9E9E9E',   // Deprecated
 };
 
 module.exports = fg;
