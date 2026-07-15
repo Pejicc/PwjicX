@@ -1,0 +1,67 @@
+// Instant Reaction System za Pejic
+const instantReaction = {
+  version: '1.0.0',
+  name: 'Pejic Instant Reaction System',
+  description: 'Sistem instant reakcija na svaki edit u Pejic jeziku',
+  
+  reactions: {
+    onFileEdit: {
+      enabled: true,
+      trigger: 'edit',
+      response: 'instant',
+      actions: [
+        'validate_syntax',
+        'check_forbidden_words',
+        'compile_preview',
+        'send_notification'
+      ]
+    },
+    
+    onSyntaxError: {
+      color: 'red',
+      icon: '❌',
+      message: 'Syntax greška - provjeri kod',
+      autoFix: true
+    },
+    
+    onForbiddenWord: {
+      color: 'red',
+      icon: '⛔',
+      message: 'Zabranjene riječi detektovane: {word}',
+      autoRemove: false
+    },
+    
+    onSuccessfulCompile: {
+      color: 'green',
+      icon: '✅',
+      message: 'Kod je validan - Kompajliranje uspješno',
+      notification: true
+    },
+    
+    onWarning: {
+      color: 'yellow',
+      icon: '⚠️',
+      message: 'Upozorenje - Provjeri kod',
+      notification: true
+    },
+    
+    onOptimization: {
+      color: 'cyan',
+      icon: 'ℹ️',
+      message: 'Optimizacija primijenjena',
+      notification: false
+    }
+  },
+  
+  fileExtensions: ['.pej', '.nxs', '.nxc'],
+  
+  settings: {
+    reactionTime: 'instant',
+    showNotifications: true,
+    autoSave: true,
+    darkTheme: true,
+    language: 'Pejic'
+  }
+};
+
+module.exports = instantReaction;
