@@ -1,0 +1,4 @@
+// Zabranjene riječi u Pejic jeziku
+const forbidden = ['void', 'null', 'none'];
+
+module.exports = forbidden;
