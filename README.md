@@ -1,2 +1,2 @@
-# PwjicX
+# Pejic
 izgrađiva če se postepeno
