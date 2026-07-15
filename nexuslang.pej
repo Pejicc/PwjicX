@@ -1,0 +1,19 @@
+// Nexus Language Support za Pejic
+const nexusLang = {
+  version: '1.0.0',
+  name: 'Pejic',
+  description: 'Pejic Programming Language',
+  fileExtension: '.pej',
+  keywords: ['pejic', 'programming', 'language'],
+  syntax: {
+    comments: '//',
+    blockComment: '/* */',
+    stringDelimiter: '"',
+    stringEscape: '\\'
+  },
+  operators: ['+', '-', '*', '/', '%', '==', '!=', '<', '>', '<=', '>=', '&&', '||', '!'],
+  keywords: ['if', 'else', 'for', 'while', 'function', 'return', 'var', 'const', 'let'],
+  forbidden: ['void', 'null', 'none']
+};
+
+module.exports = nexusLang;
