@@ -1,14 +1,14 @@
-// Provider System za Pejic
+// Provider System for Pejic
 const pejicProvider = {
   version: '1.0.0',
   name: 'Pejic Language Provider',
-  description: 'Provider sistem za sve Pejic jeziku specifične fajlove',
+  description: 'Provider system for all Pejic language specific files',
   
   providers: {
     syntaxProvider: {
       name: 'Syntax Provider',
       type: 'syntax',
-      description: 'Pruža sintaksnu validaciju i analizu',
+      description: 'Provides syntax validation and analysis',
       supportedFiles: ['.pej', '.nxs', '.nxc'],
       features: [
         'syntax_highlighting',
@@ -21,7 +21,7 @@ const pejicProvider = {
     languageProvider: {
       name: 'Language Provider',
       type: 'language',
-      description: 'Pruža jezičke servise i podrške',
+      description: 'Provides language services and support',
       supportedFiles: ['.pej'],
       features: [
         'intellisense',
@@ -34,7 +34,7 @@ const pejicProvider = {
     compilerProvider: {
       name: 'Compiler Provider',
       type: 'compiler',
-      description: 'Pruža kompajliranje i optimizaciju',
+      description: 'Provides compilation and optimization',
       supportedFiles: ['.pej', '.nxs'],
       features: [
         'compile_code',
@@ -47,7 +47,7 @@ const pejicProvider = {
     configProvider: {
       name: 'Config Provider',
       type: 'configuration',
-      description: 'Pruža konfiguraciju i postavke',
+      description: 'Provides configuration and settings',
       supportedFiles: ['.nxc'],
       features: [
         'load_config',
@@ -60,7 +60,7 @@ const pejicProvider = {
     reactionProvider: {
       name: 'Reaction Provider',
       type: 'reaction',
-      description: 'Pruža instant reaction system',
+      description: 'Provides instant reaction system',
       supportedFiles: ['.pej', '.nxs', '.nxc'],
       features: [
         'instant_feedback',
@@ -73,7 +73,7 @@ const pejicProvider = {
     themeProvider: {
       name: 'Theme Provider',
       type: 'theme',
-      description: 'Pruža tematsku podrške',
+      description: 'Provides theme support',
       supportedFiles: ['.pej'],
       features: [
         'apply_theme',
@@ -86,7 +86,7 @@ const pejicProvider = {
     securityProvider: {
       name: 'Security Provider',
       type: 'security',
-      description: 'Pruža sigurnosnu provjeru',
+      description: 'Provides security checks',
       supportedFiles: ['.pej', '.nxs', '.nxc'],
       features: [
         'check_forbidden_words',

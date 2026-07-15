@@ -1,4 +1,4 @@
-// Nexus Config za Pejic
+// Nexus Config for Pejic
 const nexusConfig = {
   project: 'Pejic',
   language: 'Pejic',

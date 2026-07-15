@@ -1,8 +1,8 @@
-// Instant Reaction System za Pejic
+// Instant Reaction System for Pejic
 const instantReaction = {
   version: '1.0.0',
   name: 'Pejic Instant Reaction System',
-  description: 'Sistem instant reakcija na svaki edit u Pejic jeziku',
+  description: 'System of instant reactions to every edit in Pejic language',
   
   reactions: {
     onFileEdit: {
@@ -20,35 +20,35 @@ const instantReaction = {
     onSyntaxError: {
       color: 'red',
       icon: '❌',
-      message: 'Syntax greška - provjeri kod',
+      message: 'Syntax error - check code',
       autoFix: true
     },
     
     onForbiddenWord: {
       color: 'red',
       icon: '⛔',
-      message: 'Zabranjene riječi detektovane: {word}',
+      message: 'Forbidden words detected: {word}',
       autoRemove: false
     },
     
     onSuccessfulCompile: {
       color: 'green',
       icon: '✅',
-      message: 'Kod je validan - Kompajliranje uspješno',
+      message: 'Code is valid - Compilation successful',
       notification: true
     },
     
     onWarning: {
       color: 'yellow',
       icon: '⚠️',
-      message: 'Upozorenje - Provjeri kod',
+      message: 'Warning - Check code',
       notification: true
     },
     
     onOptimization: {
       color: 'cyan',
       icon: 'ℹ️',
-      message: 'Optimizacija primijenjena',
+      message: 'Optimization applied',
       notification: false
     }
   },

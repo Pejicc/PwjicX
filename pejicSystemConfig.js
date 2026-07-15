@@ -1,4 +1,4 @@
-// Kompletan Config za Pejic Language System
+// Complete Configuration for Pejic Language System
 const pejicSystemConfig = {
   version: '1.0.0',
   name: 'Pejic Language System - Complete Configuration',
@@ -17,7 +17,7 @@ const pejicSystemConfig = {
       file: 'pejic.pej',
       type: 'theme',
       status: 'active',
-      description: 'Dark tema sa 20 foreground boja',
+      description: 'Dark theme with 20 foreground colors',
       colors: 20
     },
     
@@ -25,7 +25,7 @@ const pejicSystemConfig = {
       file: 'forbidden.pej',
       type: 'security',
       status: 'active',
-      description: 'Lista zabranjenih riječi'
+      description: 'List of forbidden words'
     },
     
     nexusLanguageSupport: {
@@ -33,7 +33,7 @@ const pejicSystemConfig = {
       type: 'language_support',
       extension: '.nxs',
       status: 'active',
-      description: 'Nexus Language Support za Pejic',
+      description: 'Nexus Language Support for Pejic',
       features: ['syntax_highlighting', 'code_completion', 'error_detection']
     },
     
@@ -42,7 +42,7 @@ const pejicSystemConfig = {
       type: 'configuration',
       extension: '.nxc',
       status: 'active',
-      description: 'Nexus Config za Pejic',
+      description: 'Nexus Config for Pejic',
       format: 'js',
       minify: true,
       sourceMap: true
@@ -53,7 +53,7 @@ const pejicSystemConfig = {
       type: 'reaction_system',
       extension: '.nxr',
       status: 'active',
-      description: 'Instant Reaction System na edite',
+      description: 'Instant Reaction System on edits',
       reactionTime: 'instant',
       reactions: 6
     },
@@ -63,7 +63,7 @@ const pejicSystemConfig = {
       type: 'provider_system',
       extension: '.nxp',
       status: 'active',
-      description: 'Kompletan Provider System',
+      description: 'Complete Provider System',
       providers: 7
     },
     

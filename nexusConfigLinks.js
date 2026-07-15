@@ -1,4 +1,4 @@
-// Nexus Config Links - Support i Provider
+// Nexus Config Links - Support and Provider
 const nexusConfigLinks = {
   version: '1.0.0',
   repository: 'https://github.com/Pejicc/PwjicX',

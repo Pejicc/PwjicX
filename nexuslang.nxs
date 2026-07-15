@@ -1,4 +1,4 @@
-// Nexus Language Support za Pejic
+// Nexus Language Support for Pejic
 const nexusLang = {
   version: '1.0.0',
   name: 'Pejic',

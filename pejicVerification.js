@@ -1,4 +1,4 @@
-// Verifikacija svih komponenti - Pejic Language System
+// Verification of all components - Pejic Language System
 const pejicVerification = {
   version: '1.0.0',
   name: 'Pejic Language System - Complete Verification',
@@ -11,14 +11,14 @@ const pejicVerification = {
         status: '✅ Verified',
         type: 'documentation',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/README.md',
-        description: 'Kompletan README sa svim informacijama'
+        description: 'Complete README with all information'
       },
       
       'pejic.pej': {
         status: '✅ Verified',
         type: 'theme',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/pejic.pej',
-        description: 'Dark tema sa 20 foreground boja',
+        description: 'Dark theme with 20 foreground colors',
         validated: true
       },
       
@@ -26,7 +26,7 @@ const pejicVerification = {
         status: '✅ Verified',
         type: 'security',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/forbidden.pej',
-        description: 'Lista zabranjenih riječi: void, null, none',
+        description: 'List of forbidden words: void, null, none',
         validated: true
       },
       
@@ -35,7 +35,7 @@ const pejicVerification = {
         type: 'language_support',
         extension: '.nxs',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/nexuslang.nxs',
-        description: 'Nexus Language Support za Pejic',
+        description: 'Nexus Language Support for Pejic',
         features: 5,
         validated: true
       },
@@ -45,7 +45,7 @@ const pejicVerification = {
         type: 'configuration',
         extension: '.nxc',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/nexusconfig.nxc',
-        description: 'Nexus Config - Jezični support i provider',
+        description: 'Nexus Config - Language support and provider',
         validated: true
       },
       
@@ -54,7 +54,7 @@ const pejicVerification = {
         type: 'reaction_system',
         extension: '.nxr',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/instantReaction.nxr',
-        description: 'Instant Reaction System - Instant odgovori na edite',
+        description: 'Instant Reaction System - Instant response to edits',
         reactions: 6,
         validated: true
       },
@@ -64,7 +64,7 @@ const pejicVerification = {
         type: 'provider_system',
         extension: '.nxp',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/provider.nxp',
-        description: 'Kompletan Provider System sa 7 providera',
+        description: 'Complete Provider System with 7 providers',
         providers: 7,
         validated: true
       },
@@ -73,7 +73,7 @@ const pejicVerification = {
         status: '✅ Verified',
         type: 'vs_code_integration',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/vscodeExtensionUrls.json',
-        description: '3 VS Code Extension URLs za instalaciju',
+        description: '3 VS Code Extension URLs for installation',
         extensions: 3,
         validated: true
       },
@@ -82,7 +82,7 @@ const pejicVerification = {
         status: '✅ Verified',
         type: 'support_links',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/nexusLangLinks.js',
-        description: 'Linkovi za Nexus Language Support i Provider',
+        description: 'Links for Nexus Language Support and Provider',
         validated: true
       },
       
@@ -90,7 +90,7 @@ const pejicVerification = {
         status: '✅ Verified',
         type: 'support_links',
         url: 'https://github.com/Pejicc/PwjicX/blob/main/nexusConfigLinks.js',
-        description: 'Linkovi za Nexus Config i Provider',
+        description: 'Links for Nexus Config and Provider',
         validated: true
       }
     },
@@ -179,15 +179,15 @@ const pejicVerification = {
     totalExtensions: 3,
     totalLinks: 15,
     allVerified: true,
-    status: '✅ SVEUKUPNO VERIFICIRANO'
+    status: '✅ FULLY VERIFIED'
   },
   
   quality: {
-    documentation: 'Kompletna',
-    structure: 'Organizirana',
-    compatibility: 'Potvrdjena',
-    performance: 'Optimizirana',
-    security: 'Provjeravana'
+    documentation: 'Complete',
+    structure: 'Organized',
+    compatibility: 'Verified',
+    performance: 'Optimized',
+    security: 'Checked'
   }
 };
 

@@ -1,9 +1,9 @@
-// VS Code Extension URLs za Pejic Language Support
+// VS Code Extension URLs for Pejic Language Support
 
 const vscodeExtensionUrls = {
   version: '1.0.0',
   repository: 'https://github.com/Pejicc/PwjicX',
-  description: 'VS Code Extension URLs za Pejic jeziku - Support i Provider',
+  description: 'VS Code Extension URLs for Pejic language - Support and Provider',
   
   extensionUrls: {
     url_1: {
@@ -11,7 +11,7 @@ const vscodeExtensionUrls = {
       type: 'language_support',
       url: 'vscode:extension/Pejicc.pejic-language-support',
       installUrl: 'https://marketplace.visualstudio.com/items?itemName=Pejicc.pejic-language-support',
-      description: 'Instalacija Pejic Language Support ekstenzije u VS Code',
+      description: 'Installation of Pejic Language Support extension in VS Code',
       features: [
         'Syntax highlighting',
         'Language server',
@@ -27,7 +27,7 @@ const vscodeExtensionUrls = {
       type: 'provider_system',
       url: 'vscode:extension/Pejicc.pejic-provider-system',
       installUrl: 'https://marketplace.visualstudio.com/items?itemName=Pejicc.pejic-provider-system',
-      description: 'Instalacija Pejic Provider System ekstenzije u VS Code',
+      description: 'Installation of Pejic Provider System extension in VS Code',
       features: [
         'Syntax Provider',
         'Language Provider',
@@ -45,7 +45,7 @@ const vscodeExtensionUrls = {
       type: 'complete_kit',
       url: 'vscode:extension/Pejicc.pejic-dev-kit',
       installUrl: 'https://marketplace.visualstudio.com/items?itemName=Pejicc.pejic-dev-kit',
-      description: 'Kompletan Pejic Development Kit - Support + Provider + Tools',
+      description: 'Complete Pejic Development Kit - Support + Provider + Tools',
       features: [
         'Language Support',
         'All Providers',
@@ -62,31 +62,31 @@ const vscodeExtensionUrls = {
   
   installationMethods: {
     method_1: {
-      name: 'Direktna instalacija iz VS Code',
+      name: 'Direct installation from VS Code',
       steps: [
-        'Otvori VS Code',
-        'Idi na Extensions (Ctrl+Shift+X)',
-        'Pretraži "Pejic"',
-        'Klikni "Install"'
+        'Open VS Code',
+        'Go to Extensions (Ctrl+Shift+X)',
+        'Search for "Pejic"',
+        'Click "Install"'
       ]
     },
     
     method_2: {
-      name: 'Instalacija preko URL-a',
+      name: 'Installation via URL',
       steps: [
-        'Kopiraj URL iz extensionUrls',
-        'Otvori u pregledniku ili direktno u VS Code',
-        'Klikni "Install" ili "Open in VS Code"'
+        'Copy URL from extensionUrls',
+        'Open in browser or directly in VS Code',
+        'Click "Install" or "Open in VS Code"'
       ]
     },
     
     method_3: {
-      name: 'Instalacija iz Marketplace',
+      name: 'Installation from Marketplace',
       steps: [
-        'Posjeti marketplace.visualstudio.com',
-        'Pretraži "Pejicc Pejic"',
-        'Klikni na ekstenziju',
-        'Klikni "Install"'
+        'Visit marketplace.visualstudio.com',
+        'Search for "Pejicc Pejic"',
+        'Click on extension',
+        'Click "Install"'
       ]
     }
   },

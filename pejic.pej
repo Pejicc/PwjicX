@@ -1,25 +1,25 @@
-// Dark tema - Foreground boje za Pejic sa namjenom
+// Dark theme - Foreground colors for Pejic with purpose
 const fg = {
-  black: '#1E1E1E',      // Crna - Pozadina
-  white: '#E0E0E0',      // Bijela - Tekst
-  red: '#FF6B6B',        // Crvena - Greške
-  green: '#51CF66',      // Zelena - Uspjeh
-  blue: '#4C8FFF',       // Plava - Informacije
-  yellow: '#FFD93D',     // Žuta - Upozorenja
-  cyan: '#22D3EE',       // Cyan - Primjedbe
+  black: '#1E1E1E',      // Black - Background
+  white: '#E0E0E0',      // White - Text
+  red: '#FF6B6B',        // Red - Errors
+  green: '#51CF66',      // Green - Success
+  blue: '#4C8FFF',       // Blue - Information
+  yellow: '#FFD93D',     // Yellow - Warnings
+  cyan: '#22D3EE',       // Cyan - Remarks
   magenta: '#DA77F2',    // Magenta - Debug
-  gray: '#808080',       // Siva - Neaktivno
-  maroon: '#CC4444',     // Bordo - Kritično
-  olive: '#99AA44',      // Maslinasta - Pažnja
-  lime: '#85FF00',       // Limun zelena - Dovršeno
-  aqua: '#00D9FF',       // Akva - Novo
-  teal: '#00A0A0',       // Teal - Specijalno
-  navy: '#4488DD',       // Mornarska plava - Važno
-  purple: '#BB77FF',     // Purpurna - Oznaka
-  silver: '#B0B0B0',     // Srebrna - Hint
-  fuchsia: '#FF00FF',    // Fuksija - Alert
-  orange: '#FF9F44',     // Narandžasta - Brzo
-  brown: '#996633'       // Smeđa - Istorija
+  gray: '#808080',       // Gray - Inactive
+  maroon: '#CC4444',     // Maroon - Critical
+  olive: '#99AA44',      // Olive - Attention
+  lime: '#85FF00',       // Lime green - Completed
+  aqua: '#00D9FF',       // Aqua - New
+  teal: '#00A0A0',       // Teal - Special
+  navy: '#4488DD',       // Navy blue - Important
+  purple: '#BB77FF',     // Purple - Label
+  silver: '#B0B0B0',     // Silver - Hint
+  fuchsia: '#FF00FF',    // Fuchsia - Alert
+  orange: '#FF9F44',     // Orange - Quick
+  brown: '#996633'       // Brown - History
 };
 
 module.exports = fg;

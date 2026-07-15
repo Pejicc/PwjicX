@@ -4,37 +4,37 @@
 
 ---
 
-## 📋 Pregled / Overview
+## 📋 Overview
 
-Pejic je kompletan sistem za učenje i razvoj sa podrškama za:
-- **Pejic Language Support** - Jezični server sa syntax highlighting-om i IntelliSense
-- **Provider System** - 7 različitih providera za različite funkcionalnosti
-- **Instant Reaction System** - Trenutne povratne informacije pri svakoj izmjeni koda
-- **VS Code Integration** - Direktna integracija sa VS Code ekstenzijama
-- **Security & Validation** - Sigurnosne provjere i validacija koda
-
----
-
-## 📚 Nivoi Jezika (AIEOM)
-
-AIEOM sistema definiše nivoe znanja:
-
-- **AIEOM: Početnik** - Osnove sintakse i osnovnih koncepata
-- **AIEOM: Elementarni** - Osnovne operacije i kontrolne strukture
-- **AIEOM: Srednji** - Naprednije tehnike i funkcionalnosti
-- **AIEOM: Viši srednji** - Kompleksne strukture i optimizacije
-- **AIEOM: Napredni** - Ekspertsko znanje i specijalizovane tehnike
-- **AIEOM: Gotovo savršen** - Mastery nivo sa maksimalnom efikasnosti
+Pejic is a complete system for learning and development with support for:
+- **Pejic Language Support** - Language server with syntax highlighting and IntelliSense
+- **Provider System** - 7 different providers for various functionalities
+- **Instant Reaction System** - Real-time feedback on every code edit
+- **VS Code Integration** - Direct integration with VS Code extensions
+- **Security & Validation** - Security checks and code validation
 
 ---
 
-## 🛠️ Komponente / Components
+## 📚 Language Levels (AIEOM)
+
+The AIEOM system defines knowledge levels:
+
+- **AIEOM: Beginner** - Basic syntax and fundamental concepts
+- **AIEOM: Elementary** - Basic operations and control structures
+- **AIEOM: Intermediate** - Advanced techniques and features
+- **AIEOM: Upper Intermediate** - Complex structures and optimizations
+- **AIEOM: Advanced** - Expert knowledge and specialized techniques
+- **AIEOM: Near Perfect** - Mastery level with maximum efficiency
+
+---
+
+## 🛠️ Components
 
 ### 1. **Pejic Language** (`.pej`)
-- Dark tema sa 20 foreground boja
+- Dark theme with 20 foreground colors
 - Syntax highlighting
 - Keyword support
-- Forbidden words lista
+- Forbidden words list
 
 ### 2. **Nexus Language Support** (`.nxs`)
 - Syntax highlighting
@@ -43,25 +43,25 @@ AIEOM sistema definiše nivoe znanja:
 - Language features
 
 ### 3. **Nexus Config** (`.nxc`)
-- Konfiguracija sistema
-- Postavke kompajlera
-- Optimizacijske opcije
+- System configuration
+- Compiler settings
+- Optimization options
 
 ### 4. **Instant Reaction System** (`.nxr`)
-- Instant povratne informacije
+- Instant feedback
 - Error highlighting
 - Success notifications
 - Warning messages
 
 ### 5. **Provider System** (`.nxp`)
-7 providera:
-- **Syntax Provider** - Sintaksna validacija
-- **Language Provider** - Jezični servisi
-- **Compiler Provider** - Kompajliranje
-- **Config Provider** - Konfiguracija
-- **Reaction Provider** - Sistem povratnih informacija
-- **Theme Provider** - Tematske postavke
-- **Security Provider** - Sigurnosne provjere
+7 providers:
+- **Syntax Provider** - Syntax validation
+- **Language Provider** - Language services
+- **Compiler Provider** - Code compilation
+- **Config Provider** - Configuration management
+- **Reaction Provider** - Feedback system
+- **Theme Provider** - Theme settings
+- **Security Provider** - Security checks
 
 ### 6. **VS Code Extensions**
 - Pejic Language Support Extension
@@ -70,50 +70,50 @@ AIEOM sistema definiše nivoe znanja:
 
 ---
 
-## 🚀 Instalacija / Installation
+## 🚀 Installation
 
-### Metoda 1: Direktna iz VS Code
-1. Otvori VS Code
-2. Idi na Extensions (Ctrl+Shift+X)
-3. Pretraži "Pejic"
-4. Klikni "Install"
+### Method 1: Direct from VS Code
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X)
+3. Search for "Pejic"
+4. Click "Install"
 
-### Metoda 2: Preko VS Code Extension URLs
+### Method 2: Via VS Code Extension URLs
 ```javascript
-// Direktno iz datoteke vscodeExtensionUrls.js
+// Directly from vscodeExtensionUrls.js
 - vscode:extension/Pejicc.pejic-language-support
 - vscode:extension/Pejicc.pejic-provider-system
 - vscode:extension/Pejicc.pejic-dev-kit
 ```
 
-### Metoda 3: Iz VS Code Marketplace
-Posjetite: [VS Code Marketplace](https://marketplace.visualstudio.com/)
+### Method 3: From VS Code Marketplace
+Visit: [VS Code Marketplace](https://marketplace.visualstudio.com/)
 
 ---
 
-## 📁 Struktura Projekta / Project Structure
+## 📁 Project Structure
 
 ```
 PwjicX/
-├── README.md                          # Dokumentacija
+├── README.md                          # Documentation
 ├── pejic.pej                          # Pejic language definition
-├── forbidden.pej                      # Forbidden words lista
+├── forbidden.pej                      # Forbidden words list
 ├── nexuslang.nxs                      # Nexus Language Support
 ├── nexusconfig.nxc                    # Nexus Config
 ├── instantReaction.nxr                # Instant Reaction System
 ├── provider.nxp                       # Provider System
 ├── vscodeExtensionUrls.js             # VS Code Extension URLs
-├── pejicSystemConfig.js               # Sistem konfiguracija
-├── pejicVerification.js               # Verifikacijski sistem
+├── pejicSystemConfig.js               # System configuration
+├── pejicVerification.js               # Verification system
 ├── nexusLangLinks.js                  # Nexus Language Links
 └── nexusConfigLinks.js                # Nexus Config Links
 ```
 
 ---
 
-## ⚙️ Konfiguracija / Configuration
+## ⚙️ Configuration
 
-### Sistemske Postavke
+### System Settings
 
 ```javascript
 {
@@ -125,7 +125,7 @@ PwjicX/
 }
 ```
 
-### Kompajler Opcije
+### Compiler Options
 
 ```javascript
 {
@@ -137,7 +137,7 @@ PwjicX/
 }
 ```
 
-### Sigurnost
+### Security
 
 ```javascript
 {
@@ -152,87 +152,87 @@ PwjicX/
 
 ## 🔍 Instant Reaction Types
 
-| Tip | Ikona | Boja | Opis |
-|-----|-------|------|------|
-| Syntax Error | ❌ | Red | Greška u sintaksi |
-| Forbidden Word | ⛔ | Red | Zabranjene riječi |
-| Success | ✅ | Green | Uspješna kompilacija |
-| Warning | ⚠️ | Yellow | Upozorenja |
-| Optimization | ℹ️ | Cyan | Primjena optimizacije |
+| Type | Icon | Color | Description |
+|------|------|-------|-------------|
+| Syntax Error | ❌ | Red | Syntax error in code |
+| Forbidden Word | ⛔ | Red | Forbidden words detected |
+| Success | ✅ | Green | Successful compilation |
+| Warning | ⚠️ | Yellow | Warning message |
+| Optimization | ℹ️ | Cyan | Optimization applied |
 
 ---
 
-## 🔐 Sigurnosne Provjere
+## 🔐 Security Checks
 
-Sistem automatski provjerava:
-- ✓ Zabranjene riječi
-- ✓ Tipske validacije
-- ✓ Ranjivosti
-- ✓ Sigurnosne politike
+The system automatically checks:
+- ✓ Forbidden words
+- ✓ Type validation
+- ✓ Vulnerabilities
+- ✓ Security policies
 
 ---
 
-## 📝 Datoteke sa Linkovima
+## 📝 Files with Links
 
 ### nexusLangLinks.js
-Sadrži linkove za Nexus Language Support:
+Contains links for Nexus Language Support:
 - GitHub repository
-- Raw datoteke
-- Download linkovi
+- Raw files
+- Download links
 
 ### nexusConfigLinks.js
-Sadrži linkove za Nexus Config:
+Contains links for Nexus Config:
 - GitHub repository
-- Raw datoteke
-- Download linkovi
+- Raw files
+- Download links
 
 ---
 
-## ✅ Verifikacija Sistema
+## ✅ System Verification
 
-Projekt je verificiran sa sledećim komponentama:
-- ✅ 10 datoteka
-- ✅ 6 komponenti
-- ✅ 7 providera
-- ✅ 6 tipova reactions
-- ✅ 3 VS Code ekstenzije
-- ✅ 15 linkova
+The project is verified with the following components:
+- ✅ 10 files
+- ✅ 6 components
+- ✅ 7 providers
+- ✅ 6 reaction types
+- ✅ 3 VS Code extensions
+- ✅ 15 links
 
-**Status: SVEUKUPNO VERIFICIRANO** ✅
+**Status: FULLY VERIFIED** ✅
 
 ---
 
-## 🎯 Karakteristike / Features
+## 🎯 Features
 
-### Jezika
-- 📝 Kompletna sintaksna podrška
-- 🎨 Dark tema sa 20 boja
-- 🔍 Code completion i IntelliSense
-- ⚡ Instant povratne informacije
+### Language
+- 📝 Complete syntax support
+- 🎨 Dark theme with 20 colors
+- 🔍 Code completion and IntelliSense
+- ⚡ Instant feedback
 
-### Razvojnog Okruženja
-- 🛠️ Multi-provider sistem
-- 🔧 Fleksibilna konfiguracija
-- 📊 Napredne optimizacije
-- 🔐 Integrisana sigurnost
+### Development Environment
+- 🛠️ Multi-provider system
+- 🔧 Flexible configuration
+- 📊 Advanced optimizations
+- 🔐 Integrated security
 
 ### VS Code
-- 📦 Instant instalacija
-- 🚀 Plug-and-play integracija
-- 🎯 Sveobuhvatni dev kit
-- 📚 Kompletan template sistem
+- 📦 Instant installation
+- 🚀 Plug-and-play integration
+- 🎯 Comprehensive dev kit
+- 📚 Complete template system
 
 ---
 
-## 📦 Sistemski Zahtjevi / System Requirements
+## 📦 System Requirements
 
 - **VS Code**: ≥ 1.60.0
 - **Node.js**: ≥ 14.0.0
-- **Platforme**: Windows, macOS, Linux
+- **Platforms**: Windows, macOS, Linux
 
 ---
 
-## 🔗 Brzi Linkovi / Quick Links
+## 🔗 Quick Links
 
 - **GitHub Repository**: [Pejicc/PwjicX](https://github.com/Pejicc/PwjicX)
 - **VS Code Extension - Language Support**: [Pejicc.pejic-language-support](https://marketplace.visualstudio.com/items?itemName=Pejicc.pejic-language-support)
@@ -241,22 +241,22 @@ Projekt je verificiran sa sledećim komponentama:
 
 ---
 
-## 📞 Podrška / Support
+## 📞 Support
 
-Za pitanja, bugove ili prijedloge:
-- Otvori [issue](https://github.com/Pejicc/PwjicX/issues) na GitHub-u
-- Kontaktiraj autora: Pejicc
-
----
-
-## 📄 Licenca / License
-
-Ovaj projekt je licenciran pod MIT licencom.
+For questions, bugs, or suggestions:
+- Open an [issue](https://github.com/Pejicc/PwjicX/issues) on GitHub
+- Contact the author: Pejicc
 
 ---
 
-**Zadnja ažuriranja / Last Updated**: 2026-07-15
+## 📄 License
 
-**Autor / Author**: Pejicc
+This project is licensed under the MIT License.
 
-**Verzija / Version**: 1.0.0
+---
+
+**Last Updated**: 2026-07-15
+
+**Author**: Pejicc
+
+**Version**: 1.0.0

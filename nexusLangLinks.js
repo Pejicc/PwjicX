@@ -1,4 +1,4 @@
-// Nexus Language Support Links - Support i Provider
+// Nexus Language Support Links - Support and Provider
 const nexusLangLinks = {
   version: '1.0.0',
   repository: 'https://github.com/Pejicc/PwjicX',
