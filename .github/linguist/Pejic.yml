@@ -1,0 +1,6 @@
+Pejic:
+  type: programming
+  extensions: [".pej"]
+  tm_scope: source.pej
+  aliases: [python, script]
+  color: "#3572A5"
