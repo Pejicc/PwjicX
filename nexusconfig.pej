@@ -1,0 +1,26 @@
+// Nexus Config za Pejic
+const nexusConfig = {
+  project: 'Pejic',
+  language: 'Pejic',
+  version: '1.0.0',
+  output: {
+    format: 'js',
+    minify: true,
+    sourceMap: true
+  },
+  compiler: {
+    strict: true,
+    warnings: true,
+    optimizations: true
+  },
+  theme: {
+    type: 'dark',
+    colors: './pejic.pej'
+  },
+  security: {
+    forbidden: './forbidden.pej',
+    checkTypes: true
+  }
+};
+
+module.exports = nexusConfig;
