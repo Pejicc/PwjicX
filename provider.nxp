@@ -1,0 +1,119 @@
+// Provider System za Pejic
+const pejicProvider = {
+  version: '1.0.0',
+  name: 'Pejic Language Provider',
+  description: 'Provider sistem za sve Pejic jeziku specifične fajlove',
+  
+  providers: {
+    syntaxProvider: {
+      name: 'Syntax Provider',
+      type: 'syntax',
+      description: 'Pruža sintaksnu validaciju i analizu',
+      supportedFiles: ['.pej', '.nxs', '.nxc'],
+      features: [
+        'syntax_highlighting',
+        'error_detection',
+        'code_completion',
+        'bracket_matching'
+      ]
+    },
+    
+    languageProvider: {
+      name: 'Language Provider',
+      type: 'language',
+      description: 'Pruža jezičke servise i podrške',
+      supportedFiles: ['.pej'],
+      features: [
+        'intellisense',
+        'go_to_definition',
+        'find_references',
+        'rename_symbol'
+      ]
+    },
+    
+    compilerProvider: {
+      name: 'Compiler Provider',
+      type: 'compiler',
+      description: 'Pruža kompajliranje i optimizaciju',
+      supportedFiles: ['.pej', '.nxs'],
+      features: [
+        'compile_code',
+        'optimize_code',
+        'generate_output',
+        'error_reporting'
+      ]
+    },
+    
+    configProvider: {
+      name: 'Config Provider',
+      type: 'configuration',
+      description: 'Pruža konfiguraciju i postavke',
+      supportedFiles: ['.nxc'],
+      features: [
+        'load_config',
+        'validate_config',
+        'merge_configs',
+        'export_settings'
+      ]
+    },
+    
+    reactionProvider: {
+      name: 'Reaction Provider',
+      type: 'reaction',
+      description: 'Pruža instant reaction system',
+      supportedFiles: ['.pej', '.nxs', '.nxc'],
+      features: [
+        'instant_feedback',
+        'error_highlighting',
+        'warning_display',
+        'success_notification'
+      ]
+    },
+    
+    themeProvider: {
+      name: 'Theme Provider',
+      type: 'theme',
+      description: 'Pruža tematsku podrške',
+      supportedFiles: ['.pej'],
+      features: [
+        'apply_theme',
+        'switch_colors',
+        'custom_colors',
+        'export_theme'
+      ]
+    },
+    
+    securityProvider: {
+      name: 'Security Provider',
+      type: 'security',
+      description: 'Pruža sigurnosnu provjeru',
+      supportedFiles: ['.pej', '.nxs', '.nxc'],
+      features: [
+        'check_forbidden_words',
+        'validate_security',
+        'scan_vulnerabilities',
+        'enforce_policies'
+      ]
+    }
+  },
+  
+  settings: {
+    autoLoad: true,
+    enableAll: true,
+    priority: ['syntaxProvider', 'securityProvider', 'reactionProvider', 'compilerProvider'],
+    caching: true,
+    performance: 'optimized'
+  },
+  
+  methods: {
+    registerProvider: 'function',
+    unregisterProvider: 'function',
+    getProvider: 'function',
+    activateProvider: 'function',
+    deactivateProvider: 'function',
+    getActiveProviders: 'function',
+    executeProvider: 'function'
+  }
+};
+
+module.exports = pejicProvider;
