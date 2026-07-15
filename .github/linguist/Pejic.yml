@@ -4,3 +4,4 @@ Pejic:
   tm_scope: source.pej
   aliases: [python, script]
   color: "#3572A5"
+  icon: ".github/linguist/icons/Pejic.svg

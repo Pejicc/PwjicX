@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#555"/>
+  <g transform="translate(8,8) scale(0.75)">
+    <path d="M24 4l6 4v8l-6 4-6-4v-8z" fill="#fff" opacity="0.12"/>
+    <path d="M10 32v-4l-6-3 6-3v-4l8-5 8 5v4l6 3-6 3v4l-8 5z" fill="#fff"/>
+    <text x="24" y="30" font-size="18" font-family="sans-serif" fill="#555" text-anchor="middle" fill-opacity="0">N</text>
+  </g>
+</svg>
