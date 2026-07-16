@@ -4,7 +4,7 @@ const nexusLang = {
   name: 'Pejic',
   description: 'Pejic Programming Language',
   fileExtension: '.pej',
-  keywords: ['pejic', 'programming', 'language'],
+  keywords: ['pejic', 'programming', 'script', 'language'],
   syntax: {
     comments: '//',
     blockComment: '/* */',
