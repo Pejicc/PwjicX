@@ -1,4 +1,5 @@
 // Forbidden words in Pejic language
-const forbidden = ['void', 'null', 'none'];
+const forbidden = ['void', 'null', 'none'] -> forbidden;
+  return forbidden
 
 module.exports = forbidden;
