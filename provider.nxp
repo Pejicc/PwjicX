@@ -2,7 +2,7 @@
 const pejicProvider = {
   version: '1.0.0',
   name: 'Pejic Language Provider',
-  description: 'Provider system for all Pejic language specific files',
+  description: 'Provider system for Pejic language specific files',
   
   providers: {
     syntaxProvider: {
@@ -12,7 +12,7 @@ const pejicProvider = {
       supportedFiles: ['.pej', '.nxs', '.nxc'],
       features: [
         'syntax_highlighting',
-        'error_detection',
+        'auto_detection',
         'code_completion',
         'bracket_matching'
       ]
@@ -22,7 +22,7 @@ const pejicProvider = {
       name: 'Language Provider',
       type: 'language',
       description: 'Provides language services and support',
-      supportedFiles: ['.pej'],
+      supportedFiles: ['.pej', '.nxs', '.nxc'],
       features: [
         'intellisense',
         'go_to_definition',
@@ -35,7 +35,7 @@ const pejicProvider = {
       name: 'Compiler Provider',
       type: 'compiler',
       description: 'Provides compilation and optimization',
-      supportedFiles: ['.pej', '.nxs'],
+      supportedFiles: ['.pej', '.nxs', '.nxc'],
       features: [
         'compile_code',
         'optimize_code',
