@@ -2,6 +2,6 @@ NexusConfig:
   type: data
   extensions: [".nxc"]
   tm_scope: source.nexusconfig
-  aliases: [json, yaml, toml]
+  aliases: [config]
   color: "#89e051"
   icon: ".github/linguist/icons/NexusConfig.svg
