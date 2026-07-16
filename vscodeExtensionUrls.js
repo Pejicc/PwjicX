@@ -17,7 +17,7 @@ const vscodeExtensionUrls = {
         'Language server',
         'IntelliSense',
         'Code completion',
-        'Error detection'
+        'Auto detection'
       ],
       supportedFiles: ['.pej', '.nxs', '.nxc']
     },
