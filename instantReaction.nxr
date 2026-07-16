@@ -28,7 +28,7 @@ const instantReaction = {
       color: 'red',
       icon: '⛔',
       message: 'Forbidden words detected: {word}',
-      autoRemove: false
+      autoDelete: true
     },
     
     onSuccessfulCompile: {
@@ -48,8 +48,8 @@ const instantReaction = {
     onOptimization: {
       color: 'cyan',
       icon: 'ℹ️',
-      message: 'Optimization applied',
-      notification: false
+      message: 'Optimization append',
+      notification: true
     }
   },
   
