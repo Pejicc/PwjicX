@@ -2,6 +2,6 @@ NexusLang:
   type: programming
   extensions: [".nxs"]
   tm_scope: source.nexuslang
-  aliases: [c, system]
+  aliases: [programing, system]
   color: "#555555"
   icon: ".github/linguist/icons/NexusLang.svg
