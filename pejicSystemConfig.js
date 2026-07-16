@@ -9,7 +9,7 @@ const pejicSystemConfig = {
     language: 'Pejic',
     fileExtensions: ['.pej', '.nxs', '.nxc', '.nxr', '.nxp'],
     theme: 'dark',
-    encoding: 'UTF-8'
+    coding: 'UTF-8'
   },
   
   components: {
@@ -33,8 +33,8 @@ const pejicSystemConfig = {
       type: 'language_support',
       extension: '.nxs',
       status: 'active',
-      description: 'Nexus Language Support for Pejic',
-      features: ['syntax_highlighting', 'code_completion', 'error_detection']
+      description: 'Nexus Language Support for Pejic and Nexus Config',
+      features: ['syntax_highlighting', 'code_completion', 'auto_detection']
     },
     
     nexusConfig: {
@@ -42,9 +42,9 @@ const pejicSystemConfig = {
       type: 'configuration',
       extension: '.nxc',
       status: 'active',
-      description: 'Nexus Config for Pejic',
+      description: 'Nexus Config for Pejic and Nexus Lang',
       format: 'js',
-      minify: true,
+      minify: false,
       sourceMap: true
     },
     
@@ -78,10 +78,11 @@ const pejicSystemConfig = {
   
   compiler: {
     strict: true,
+    verbal: true,
     warnings: true,
     optimizations: true,
     sourceMap: true,
-    minify: true
+    minify: false
   },
   
   security: {
