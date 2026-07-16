@@ -123,7 +123,7 @@ PwjicX/
   language: 'Pejic',
   fileExtensions: ['.pej', '.nxs', '.nxc', '.nxr', '.nxp'],
   theme: 'dark',
-  encoding: 'UTF-8'
+  coding: 'UTF-8'
 }
 ```
 
@@ -135,7 +135,7 @@ PwjicX/
   warnings: true,
   optimizations: true,
   sourceMap: true,
-  minify: true
+  minify: false
 }
 ```
 
