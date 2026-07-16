@@ -26,22 +26,7 @@ The AIEOM system defines knowledge levels:
 - **AIEOM: Omega** - the last, final, and highest level; the endpoint of any hierarchy.
 - **AIEOM: Master** - complete mastery; perfection in knowledge, skills, and execution.
 
-- The AIEOM standard defines the highest design and development philosophy for the Pejić Ecosystem.
-
-A — Absolute
-Absolute, unrestricted, immutable, and beyond all limitations, rules, and boundaries. Every component is precisely defined, deterministic, and has a clear purpose and responsibility.
-
-E — Eternal
-Eternal, without beginning or end, existing beyond time and transience. The architecture is designed for long-term stability, compatibility, and sustainability across generations.
-
-I — Infinite
-Infinite, without limitation in size, capability, scalability, or evolution. The system can continuously grow through new modules, services, languages, and technologies without compromising its integrity.
-
-O — Omega
-The final, ultimate, and highest level of organization. All components operate as a unified ecosystem under a single architectural model, representing the culmination of integration and consistency.
-
-M — Master
-Complete mastery, excellence, and total control over knowledge, capabilities, execution, and system governance. It defines the highest quality standard for designing, implementing, maintaining, and evolving the ecosystem.
+- The AIEOM standard defines the highest design and development philosophy for the Pejic Ecosystem.
 
 ---
 
