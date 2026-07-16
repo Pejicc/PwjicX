@@ -4,8 +4,8 @@ const nexusConfig = {
   language: 'Pejic',
   version: '1.0.0',
   output: {
-    format: 'js',
-    minify: true,
+    format: 'pej',
+    minify: false,
     sourceMap: true
   },
   compiler: {
