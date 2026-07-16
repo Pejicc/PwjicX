@@ -5,7 +5,7 @@ const nexusConfig = {
   version: '1.0.0',
   output: {
     format: 'js',
-    minify: true,
+    minify: false,
     sourceMap: true
   },
   compiler: {
